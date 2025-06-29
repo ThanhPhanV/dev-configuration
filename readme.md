@@ -1,14 +1,16 @@
 # Dev Configuration
 
-## Shell
-1. Install ZSH & Oh My ZSH
+This repo is to help developer to set up tools to boost their productivity. These are tools and set up that I prefer. If this is good for you, you can apply it.
+
+## Shell Set Up
+### 1. Install ZSH & Oh My ZSH
 - On MacOs, ZSH is automatically installed, let's install Oh-My-ZSH
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 source: https://ohmyz.sh/#install
 
-2. Install Autosuggestion (History :v)
+### 2. Install Autosuggestion (History :v)
 Clone this repository into $ZSH_CUSTOM/plugins (by default ~/.oh-my-zsh/custom/plugins)
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -22,13 +24,15 @@ plugins=(
 
 ```
 Source: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
-3. Custom Themes
+
+### 3. Customize Themes
 I prefer robbyrussell.zsh-theme, but need some custom for better. I just need to add a shell time to this theme
-- Go to this path in the shell. This includes a lot of themes.
+
+Go to this path in the shell. This includes a lot of themes.
 ```
 cd ~/.oh-my-zsh/themes
 ```
-- Modify the robbyrussell.zsh-theme to customize this, copy all of these code and paste into the file,
+Modify the robbyrussell.zsh-theme to customize this, copy all of these code and paste into the file,
 overwrite everything
 ```
 # Prompt: show green arrow if success, red arrow if fail, then time in yellow, then cyan path
@@ -50,3 +54,18 @@ ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%}) %{$fg[yellow]%}✗"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
 ```
 Nice! now we completed to set up the shell
+
+### 4. Set Alias
+Open the shell bash profile
+```
+nano ~/.zshrc 
+```
+Go the the end of the file, add you alias here
+```
+alias sc/cloudwatch='cd ~/support-center && npm run cloudwatch-support'
+alias cdbe='cd ~/be'
+alias cdfe='cd ~/fe'
+alias cdsp='cursor ~/support-center'
+```
+
+Happy Coding!
