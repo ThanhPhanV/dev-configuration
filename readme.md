@@ -2,6 +2,14 @@
 
 This repo is to help developer to set up tools to boost their productivity. These are tools and set up that I prefer. If this is good for you, you can apply it.
 
+## Table Of Contents
+- [Shell Set Up](#shell-set-up)
+  - [1. Install ZSH & Oh My ZSH](#1-install-zsh--oh-my-zsh)
+  - [2. Install Autosuggestions](#2-install-autosuggestions)
+  - [3. Customize Themes](#3-customize-themes)
+  - [4. Set Aliases](#4-set-aliases)
+- [Happy Coding!](#happy-coding)
+
 ## Shell Set Up
 ### 1. Install ZSH & Oh My ZSH
 - On MacOs, ZSH is automatically installed, let's install Oh-My-ZSH
