@@ -7,7 +7,7 @@ This repo is to help developer to set up tools to boost their productivity. Thes
   - [1. Install ZSH & Oh My ZSH](#1-install-zsh--oh-my-zsh)
   - [2. Install Autosuggestions](#2-install-autosuggestions)
   - [3. Customize Themes](#3-customize-themes)
-  - [4. Set Aliases](#4-set-aliases)
+  - [4. Set Aliases](#4-set-alias)
 - [Happy Coding!](#happy-coding)
 
 ## Shell Set Up
